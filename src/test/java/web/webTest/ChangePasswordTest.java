@@ -4,10 +4,10 @@ import dev.failsafe.internal.util.Assert;
 import org.junit.jupiter.api.Assertions;
 import org.junit.jupiter.api.Test;
 
-public class ChangePasswordTest extends TestBase{
+public class ChangePasswordTest extends TestBaseDos{
 
-    String oldPassword = "pole12345";
-    String newPassword = "pole54321";
+    String oldPassword = "pole54321";
+    String newPassword = "pole12345";
 
     @Test
     public void verifyChangePasswordTest() throws InterruptedException {

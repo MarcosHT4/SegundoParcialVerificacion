@@ -26,7 +26,7 @@ public class UserProjectTest {
     @BeforeEach
     public void setup() {
         userBody.put("FullName", "Marcos");
-        userBody.put("Email", "vpsimarcogfcgs3fghi554673@vpsi.com");
+        userBody.put("Email", "vpsimarcos"+LocalTime.now().format(DateTimeFormatter.ofPattern("HHmmss"))+"554673@vpsi.com");
         userBody.put("Password", "12345");
         projectBody.put("Content", "Marcos Project" + LocalTime.now().format(DateTimeFormatter.ofPattern("HHmmss")));
 
