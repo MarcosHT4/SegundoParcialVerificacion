@@ -5,11 +5,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="c1319b91-507f-477f-85a9-5518acf51f1e" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/test/java/web/pages/todoist/ChangePasswordSection.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/web/pages/todoist/NavBarSection.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/web/pages/todoist/SettingsPopUp.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/web/webTest/ChangePasswordTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/api/apiTest/UserProjectTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/api/apiTest/UserProjectTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/web/pages/todoist/SettingsPopUp.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/web/pages/todoist/SettingsPopUp.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/web/webTest/ChangePasswordTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/web/webTest/ChangePasswordTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/web/webTest/SignUpCreateProjectTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/web/webTest/SignUpCreateProjectTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/web/webTest/TestBase.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/web/webTest/TestBase.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -71,7 +71,30 @@
       <recent name="C:\Users\ASUS\Desktop\Verificación y Prueba de Sistemas Informáticos\SegundoParcialVerificacion\src\test\resources\driver" />
     </key>
   </component>
-  <component name="RunManager" selected="Gradle.ChangePasswordTest.verifyChangePasswordTest">
+  <component name="RunManager" selected="Gradle.ChangePasswordTest">
+    <configuration name="ChangePasswordTest" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" value="" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value=":test" />
+            <option value="--tests" />
+            <option value="&quot;web.webTest.ChangePasswordTest&quot;" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <ExternalSystemDebugServerProcess>false</ExternalSystemDebugServerProcess>
+      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
+      <DebugAllEnabled>false</DebugAllEnabled>
+      <method v="2" />
+    </configuration>
     <configuration name="ChangePasswordTest.verifyChangePasswordTest" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
@@ -86,52 +109,6 @@
             <option value=":test" />
             <option value="--tests" />
             <option value="&quot;web.webTest.ChangePasswordTest.verifyChangePasswordTest&quot;" />
-          </list>
-        </option>
-        <option name="vmOptions" />
-      </ExternalSystemSettings>
-      <ExternalSystemDebugServerProcess>false</ExternalSystemDebugServerProcess>
-      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
-      <DebugAllEnabled>false</DebugAllEnabled>
-      <method v="2" />
-    </configuration>
-    <configuration name="MultipleProjectsTest" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
-      <ExternalSystemSettings>
-        <option name="executionName" />
-        <option name="externalProjectPath" value="$PROJECT_DIR$" />
-        <option name="externalSystemIdString" value="GRADLE" />
-        <option name="scriptParameters" value="" />
-        <option name="taskDescriptions">
-          <list />
-        </option>
-        <option name="taskNames">
-          <list>
-            <option value=":test" />
-            <option value="--tests" />
-            <option value="&quot;api.apiTest.MultipleProjectsTest&quot;" />
-          </list>
-        </option>
-        <option name="vmOptions" />
-      </ExternalSystemSettings>
-      <ExternalSystemDebugServerProcess>false</ExternalSystemDebugServerProcess>
-      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
-      <DebugAllEnabled>false</DebugAllEnabled>
-      <method v="2" />
-    </configuration>
-    <configuration name="MultipleProjectsTest.verifyMultipleProjectsTest" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
-      <ExternalSystemSettings>
-        <option name="executionName" />
-        <option name="externalProjectPath" value="$PROJECT_DIR$" />
-        <option name="externalSystemIdString" value="GRADLE" />
-        <option name="scriptParameters" value="" />
-        <option name="taskDescriptions">
-          <list />
-        </option>
-        <option name="taskNames">
-          <list>
-            <option value=":test" />
-            <option value="--tests" />
-            <option value="&quot;api.apiTest.MultipleProjectsTest.verifyMultipleProjectsTest&quot;" />
           </list>
         </option>
         <option name="vmOptions" />
@@ -187,13 +164,36 @@
       <DebugAllEnabled>false</DebugAllEnabled>
       <method v="2" />
     </configuration>
+    <configuration name="UserProjectTest" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" value="" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value=":test" />
+            <option value="--tests" />
+            <option value="&quot;api.apiTest.UserProjectTest&quot;" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <ExternalSystemDebugServerProcess>false</ExternalSystemDebugServerProcess>
+      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
+      <DebugAllEnabled>false</DebugAllEnabled>
+      <method v="2" />
+    </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Gradle.ChangePasswordTest.verifyChangePasswordTest" />
+        <item itemvalue="Gradle.ChangePasswordTest" />
+        <item itemvalue="Gradle.UserProjectTest" />
         <item itemvalue="Gradle.SignUpCreateProjectTest" />
+        <item itemvalue="Gradle.ChangePasswordTest.verifyChangePasswordTest" />
         <item itemvalue="Gradle.SignUpCreateProjectTest.signUpCreateProjectTest" />
-        <item itemvalue="Gradle.MultipleProjectsTest" />
-        <item itemvalue="Gradle.MultipleProjectsTest.verifyMultipleProjectsTest" />
       </list>
     </recent_temporary>
   </component>
@@ -206,7 +206,7 @@
       <option name="presentableId" value="Default" />
       <updated>1686708416292</updated>
       <workItem from="1686708419755" duration="789000" />
-      <workItem from="1686764520252" duration="8011000" />
+      <workItem from="1686764520252" duration="9411000" />
     </task>
     <servers />
   </component>

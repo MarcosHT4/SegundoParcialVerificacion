@@ -41,7 +41,7 @@ public class TestBase {
 
     protected SettingsPopUp settingsPopUp = new SettingsPopUp();
 
-    protected ChangePasswordTest changePasswordTest = new ChangePasswordTest();
+    protected ChangePasswordSection changePasswordSection = new ChangePasswordSection();
 
 
 

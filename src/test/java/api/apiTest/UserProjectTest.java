@@ -48,11 +48,15 @@ public class UserProjectTest {
                 response.then().log().all().statusCode(200)
                         .body("Content", equalTo(projectBody.get("Content")));
 
+
+
         requestInfo.setHost(Properties.host + "api/user/0.json").setHeader("Authorization", "Basic " + auth);
         response = FactoryRequest.make("delete").send(requestInfo);
         response.then().log().all().statusCode(200)
                 .body("Email", equalTo(userBody.get("Email")))
                 .body("FullName", equalTo(userBody.get("FullName")));
+
+
 
         requestInfo.setHost(Properties.host + "api/projects.json").setBody(projectBody.toString()).setHeader("Authorization", "Basic " + auth);
         response = FactoryRequest.make("post").send(requestInfo);
