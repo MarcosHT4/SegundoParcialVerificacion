@@ -37,11 +37,17 @@ public class TestBase {
     protected CentralProjectSection centralProjectSection = new CentralProjectSection();
 
     protected EditProjectPopUp editProjectPopUp = new EditProjectPopUp();
+    protected NavBarSection navBarSection = new NavBarSection();
+
+    protected SettingsPopUp settingsPopUp = new SettingsPopUp();
+
+    protected ChangePasswordTest changePasswordTest = new ChangePasswordTest();
+
 
 
     @BeforeEach
     public void openBroswer() {
-        Session.getSession().goTo("https://todo.ly/");
+        Session.getSession().goTo("https://todoist.com/");
     }
 
     @AfterEach

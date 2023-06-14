@@ -23,6 +23,9 @@ public class SignUpCreateProjectTest extends TestBase {
         projectSection.projectNameTextBox.setText(nameProject);
         projectSection.projectNameButton.click();
         Assertions.assertTrue(projectSection.addNameToProjectLabel(nameProject).isControlDisplayed(), "ERROR! El proyecto no se creo!");
+        navBarSection.openInfoButton.click();
+        navBarSection.openSettingsButton.click();
+
 
 
 
