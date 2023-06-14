@@ -20,6 +20,8 @@ public class TestBase {
 
     protected SettingsSection settingsSection = new SettingsSection();
 
+    protected SignUpPage signUpPage = new SignUpPage();
+
     //TODOIST
 
 

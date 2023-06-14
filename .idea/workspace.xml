@@ -5,53 +5,13 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="c1319b91-507f-477f-85a9-5518acf51f1e" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/codeStyles/Project.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/codeStyles/codeStyleConfig.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/gradle.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build.gradle" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gradle/wrapper/gradle-wrapper.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gradle/wrapper/gradle-wrapper.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gradlew" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gradlew.bat" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/settings.gradle" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/api/factoryRequest/FactoryRequest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/api/factoryRequest/IRequest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/api/factoryRequest/RequestDELETE.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/api/factoryRequest/RequestGET.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/api/factoryRequest/RequestInfo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/api/factoryRequest/RequestPOST.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/api/factoryRequest/RequestPUT.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/api/utils/JsonUtil.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/api/utils/Properties.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/web/controls/Button.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/web/controls/ControlBase.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/web/controls/Label.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/web/controls/TextBox.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/web/factoryBrowser/Chrome.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/web/factoryBrowser/Edge.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/web/factoryBrowser/FactoryBrowser.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/web/factoryBrowser/FireFox.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/web/factoryBrowser/IBrowser.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/web/pages/todoLy/CentralSection.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/web/pages/todoLy/LoginSection.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/web/pages/todoLy/MainPage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/web/pages/todoLy/MenuSection.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/web/pages/todoLy/ProjectSection.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/web/pages/todoLy/SettingsSection.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/web/pages/todoist/AddProjectPopUp.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/web/pages/todoist/CentralProjectSection.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/web/pages/todoist/EditProjectPopUp.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/web/pages/todoist/LateralProjectSection.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/web/pages/todoist/LoginPage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/web/pages/todoist/MainTodoistPage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/web/singletonSession/Session.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/web/webTest/TestBase.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/resources/driver/chromedriver.exe" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/api/apiTest/MultipleProjectsTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/api/apiTest/UserProjectTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/web/pages/todoLy/SignUpPage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/web/webTest/SignUpCreateProjectTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/web/pages/todoLy/MainPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/web/pages/todoLy/MainPage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/web/webTest/TestBase.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/web/webTest/TestBase.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -65,6 +25,16 @@
     <projectState path="$PROJECT_DIR$">
       <ProjectState />
     </projectState>
+  </component>
+  <component name="ExternalProjectsManager">
+    <system id="GRADLE">
+      <state>
+        <task path="$PROJECT_DIR$">
+          <activation />
+        </task>
+        <projects_view />
+      </state>
+    </system>
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -91,7 +61,8 @@
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
     "WebServerToolWindowFactoryState": "false",
-    "last_opened_file_path": "C:/Users/ASUS/Desktop/Verificación y Prueba de Sistemas Informáticos/SegundoParcialVerificacion/src/test/java/api"
+    "last_opened_file_path": "C:/Users/ASUS/Desktop/Verificación y Prueba de Sistemas Informáticos/SegundoParcialVerificacion/src/test/java/api",
+    "nodejs_package_manager_path": "npm"
   }
 }]]></component>
   <component name="RecentsManager">
@@ -101,8 +72,8 @@
       <recent name="C:\Users\ASUS\Desktop\Verificación y Prueba de Sistemas Informáticos\SegundoParcialVerificacion\src\test\resources\driver" />
     </key>
   </component>
-  <component name="RunManager" selected="Gradle.ProjectTest">
-    <configuration name="CUDProjectTest" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+  <component name="RunManager" selected="Gradle.SignUpCreateProjectTest">
+    <configuration name="MultipleProjectsTest" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
@@ -115,7 +86,7 @@
           <list>
             <option value=":test" />
             <option value="--tests" />
-            <option value="&quot;web.testTodoLy.CUDProjectTest&quot;" />
+            <option value="&quot;api.apiTest.MultipleProjectsTest&quot;" />
           </list>
         </option>
         <option name="vmOptions" />
@@ -125,7 +96,7 @@
       <DebugAllEnabled>false</DebugAllEnabled>
       <method v="2" />
     </configuration>
-    <configuration name="CUDTodoistTest" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+    <configuration name="MultipleProjectsTest.verifyMultipleProjectsTest" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
@@ -138,7 +109,7 @@
           <list>
             <option value=":test" />
             <option value="--tests" />
-            <option value="&quot;web.testTodoLy.CUDTodoistTest&quot;" />
+            <option value="&quot;api.apiTest.MultipleProjectsTest.verifyMultipleProjectsTest&quot;" />
           </list>
         </option>
         <option name="vmOptions" />
@@ -148,7 +119,7 @@
       <DebugAllEnabled>false</DebugAllEnabled>
       <method v="2" />
     </configuration>
-    <configuration name="FullNameChangeTest" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+    <configuration name="SignUpCreateProjectTest" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
@@ -161,7 +132,7 @@
           <list>
             <option value=":test" />
             <option value="--tests" />
-            <option value="&quot;web.testTodoLy.FullNameChangeTest&quot;" />
+            <option value="&quot;web.webTest.SignUpCreateProjectTest&quot;" />
           </list>
         </option>
         <option name="vmOptions" />
@@ -171,7 +142,7 @@
       <DebugAllEnabled>false</DebugAllEnabled>
       <method v="2" />
     </configuration>
-    <configuration name="ProjectTest" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+    <configuration name="SignUpCreateProjectTest.signUpCreateProjectTest" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
@@ -184,7 +155,30 @@
           <list>
             <option value=":test" />
             <option value="--tests" />
-            <option value="&quot;api.apiTest.ProjectTest&quot;" />
+            <option value="&quot;web.webTest.SignUpCreateProjectTest.signUpCreateProjectTest&quot;" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <ExternalSystemDebugServerProcess>false</ExternalSystemDebugServerProcess>
+      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
+      <DebugAllEnabled>false</DebugAllEnabled>
+      <method v="2" />
+    </configuration>
+    <configuration name="UserProjectTest.verifyUserProjectTest" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" value="" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value=":test" />
+            <option value="--tests" />
+            <option value="&quot;api.apiTest.UserProjectTest.verifyUserProjectTest&quot;" />
           </list>
         </option>
         <option name="vmOptions" />
@@ -196,10 +190,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Gradle.ProjectTest" />
-        <item itemvalue="Gradle.CUDProjectTest" />
-        <item itemvalue="Gradle.FullNameChangeTest" />
-        <item itemvalue="Gradle.CUDTodoistTest" />
+        <item itemvalue="Gradle.SignUpCreateProjectTest" />
+        <item itemvalue="Gradle.SignUpCreateProjectTest.signUpCreateProjectTest" />
+        <item itemvalue="Gradle.MultipleProjectsTest" />
+        <item itemvalue="Gradle.MultipleProjectsTest.verifyMultipleProjectsTest" />
+        <item itemvalue="Gradle.UserProjectTest.verifyUserProjectTest" />
       </list>
     </recent_temporary>
   </component>
@@ -212,7 +207,7 @@
       <option name="presentableId" value="Default" />
       <updated>1686708416292</updated>
       <workItem from="1686708419755" duration="789000" />
-      <workItem from="1686764520252" duration="3138000" />
+      <workItem from="1686764520252" duration="7058000" />
     </task>
     <servers />
   </component>
